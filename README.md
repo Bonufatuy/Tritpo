@@ -11,13 +11,13 @@
 
 ### Установка ПО
 1.	Скачать проект и базу данных для него с [google диска]((https://drive.google.com/drive/u/0/folders/1M1rPz1LwzC1u4PJAeoKyoBrIau6FNCOi)).
-2.	Установить обеспечение для работы с [node.js](https://nodejs.org/en/download)
-3.	Установить [pgAdmin](https://www.pgadmin.org/download/)
+2.	Установить обеспечение для работы с [node.js](https://nodejs.org/en/download).
+3.	Установить [pgAdmin](https://www.pgadmin.org/download/).
 
 ### Запуск базы данных 
 1.	Открыть pgAdmin 4.
 2.	Придумать и ввести пароль для базы данных.
-3.	Перейти через вложения Servers -> PostgreSQL -> Databases
+3.	Перейти через вложения Servers -> PostgreSQL -> Databases.
 4.	Создать базу данных. ПКМ по Databases. Create.
 5.	Ввести название – возможно любое.
 6.	Восстановить базу данных из файла, который также находится на google диске. (online-store.sql) Restore -> Filename -> Выбрать скачанный файл.
@@ -27,7 +27,7 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 
 ### Запуск проекта
 1.	Открыть проект через папку. Open folder.
-2.	Найти и открыть вложение server и перейти к файлу .env
+2.	Найти и открыть вложение server и перейти к файлу .env.
 3.	Ввести локальные данные:
 ```env
     PORT=5000

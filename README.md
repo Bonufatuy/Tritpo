@@ -68,13 +68,9 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 
 
 4.1.	При возникновении ошибки с emailer – возможно пригодится данная [информация](https://www.courier.com/error-solutions/535-authentication-failed-nodemailer/)
-
 5.	Создать 2 терминальных окна. Server и Client. (Ctrl+Shift+` по умолчанию)
-
 6.	В Server прописать: cd server -> npm run dev
-
 7.	В Client: cd client -> npm start
-
 8.	Через браузер по умолчанию на localhost откроется данный проект.
 
 ### Запуск проекта может быть произведен с помощью другого ПО. Приведены ошибки, столкнуться с которыми можно вероятнее всего.

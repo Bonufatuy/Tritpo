@@ -46,7 +46,7 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 - **-** DB_PORT – можно найти –> pgAdmin -> Servers. ЛКМ по PostgreSQL 15. Скопировать значение из Port.
 
 4.	После этого перейти в файл server->index.js и ввести свои данные в строки 28-36 и 38-44. Эти строки отвечают за информирование об ошибках с помощью электронной почты.
-```json
+```js
     let transporter = nodemailer.createTransport({
         host: 'smtp.ethereal.email',
         port: 587,

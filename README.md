@@ -31,7 +31,7 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 Выбрать версию (15, предположительно). Прописать путь к PostgreSQL. Пример: C:\Program Files\PostgreSQL\15\bin
 
 ### Запуск проекта
-1.	Открыть проект через папку. Open folder.
+1.	Открыть проект через VS Code. Open folder.
 2.	Найти и открыть вложение server и перейти к файлу .env.
 3.	Ввести локальные данные:
 ```env

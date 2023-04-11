@@ -31,11 +31,11 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 3.	Ввести локальные данные:
 ```env
     PORT=5000
-    DB_NAME=online-store
+    DB_NAME=...
     DB_USER=postgres
-    DB_PASSWORD=19892002
+    DB_PASSWORD=...
     DB_HOST=localhost
-    DB_PORT=1111
+    DB_PORT=...
     SECRET_KEY=POG_CHAMP_random_key30
 ```
 DB_NAME – название созданной базы данных
@@ -43,8 +43,9 @@ DB_USER – по умолчанию
 DB_PASSWORD – пароль, который вводится при запуске pgAdmin
 DB_HOST – по умолчанию
 DB_PORT – можно найти –> pgAdmin -> Servers. ЛКМ по PostgreSQL 15. Скопировать значение из Port.
+
 4.	После этого перейти в файл server->index.js и ввести свои данные в строки 28-36 и 38-44. Эти строки отвечают за информирование об ошибках с помощью электронной почты.
-4.1.	При возникновении ошибки с emailer – возможно пригодится данная информация https://www.courier.com/error-solutions/535-authentication-failed-nodemailer/
+  4.1.	При возникновении ошибки с emailer – возможно пригодится данная [информация](https://www.courier.com/error-solutions/535-authentication-failed-nodemailer/)
 5.	Создать 2 терминальных окна. Server и Client. (Ctrl+Shift+` по умолчанию)
 6.	В Server прописать: cd server -> npm run dev
 7.	В Client: cd client -> npm start

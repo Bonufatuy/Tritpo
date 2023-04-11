@@ -1,6 +1,7 @@
 <p align="center">
-      <img src="https://ibb.co/q5J3FXq" alt="Project Logo">
+      <img src="https://ibb.co/q5J3FXq">
 </p>
+
 
 ## ParaDice
 - Данный проект представляет собой онлайн-магазин настольных игр ParaDice. 

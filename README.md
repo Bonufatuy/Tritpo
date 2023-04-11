@@ -1,6 +1,7 @@
 <p align="center">
       <img src="[https://i.ibb.co/WWFP44j/Git-Hub-Logo.png](https://ibb.co/q5J3FXq)" alt="Project Logo">
 </p>
+
 ## ParaDice
 - Данный проект представляет собой онлайн-магазин настольных игр ParaDice. 
 - На данный момент реализовано локальное развертывание проекта.

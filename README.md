@@ -29,7 +29,7 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 1.	Открыть проект через папку. Open folder.
 2.	Найти и открыть вложение server и перейти к файлу .env
 3.	Ввести локальные данные:
-```json
+```env
     {
     PORT=5000
     DB_NAME=online-store

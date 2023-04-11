@@ -30,7 +30,6 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 2.	Найти и открыть вложение server и перейти к файлу .env
 3.	Ввести локальные данные:
 ```env
-    {
     PORT=5000
     DB_NAME=online-store
     DB_USER=postgres
@@ -38,7 +37,6 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
     DB_HOST=localhost
     DB_PORT=1111
     SECRET_KEY=POG_CHAMP_random_key30
-    }
 ```
 DB_NAME – название созданной базы данных
 DB_USER – по умолчанию

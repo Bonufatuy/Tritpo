@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="https://ibb.co/q5J3FXq">
+      <img src="https://i.ibb.co/q5J3FXq">
 </p>
 
 

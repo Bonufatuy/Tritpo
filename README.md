@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="[https://i.ibb.co/WWFP44j/Git-Hub-Logo.png](https://ibb.co/q5J3FXq)" alt="Project Logo" width="726">
+      <img src="[https://i.ibb.co/WWFP44j/Git-Hub-Logo.png](https://ibb.co/q5J3FXq)" alt="Project Logo">
 </p>
 ## ParaDice
 - Данный проект представляет собой онлайн-магазин настольных игр ParaDice. 
@@ -80,4 +80,5 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 - **-** Дедина А.
 - **-** Шалесный Н.
 
-## Проект распространяется под MIT license.
+## Лицензия
+Проект распространяется под MIT license.

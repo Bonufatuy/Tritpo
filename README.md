@@ -10,9 +10,9 @@
 ## Запуск с помощью VS Code и pgAdmin
 
 ### Установка ПО
-1.	Скачать проект и базу данных для него с google диска.
-2.	Установить обеспечение для работы с node.js https://nodejs.org/en/download
-3.	Установить pgAdmin https://www.pgadmin.org/download/
+1.	Скачать проект и базу данных для него с [google диска]((https://drive.google.com/drive/u/0/folders/1M1rPz1LwzC1u4PJAeoKyoBrIau6FNCOi)).
+2.	Установить обеспечение для работы с [node.js](https://nodejs.org/en/download)
+3.	Установить [pgAdmin](https://www.pgadmin.org/download/)
 
 ### Запуск базы данных 
 1.	Открыть pgAdmin 4.
@@ -29,6 +29,15 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 1.	Открыть проект через папку. Open folder.
 2.	Найти и открыть вложение server и перейти к файлу .env
 3.	Ввести локальные данные:
+```json
+  PORT=5000
+  DB_NAME=online-store
+  DB_USER=postgres
+  DB_PASSWORD=19892002
+  DB_HOST=localhost
+  DB_PORT=1111
+  SECRET_KEY=POG_CHAMP_random_key30
+```
 DB_NAME – название созданной базы данных
 DB_USER – по умолчанию
 DB_PASSWORD – пароль, который вводится при запуске pgAdmin

@@ -38,6 +38,7 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
     DB_PORT=...
     SECRET_KEY=POG_CHAMP_random_key30
 ```
+
 DB_NAME – название созданной базы данных
 DB_USER – по умолчанию
 DB_PASSWORD – пароль, который вводится при запуске pgAdmin

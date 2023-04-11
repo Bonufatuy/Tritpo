@@ -84,3 +84,5 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 
 ## Лицензия
 - Проект распространяется под MIT license.
+
+### Проект является не завершенным и содержит множество багов и недоработок. 

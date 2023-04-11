@@ -1,5 +1,5 @@
 <p align="center">
-      <img src="(https://ibb.co/q5J3FXq)" alt="Project Logo">
+      <img src="https://ibb.co/q5J3FXq" alt="Project Logo">
 </p>
 
 ## ParaDice

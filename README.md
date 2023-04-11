@@ -45,8 +45,26 @@ File -> Preference -> Paths -> Binary Paths -> PostgreSQL Binary Path.
 - **-** DB_HOST – по умолчанию
 - **-** DB_PORT – можно найти –> pgAdmin -> Servers. ЛКМ по PostgreSQL 15. Скопировать значение из Port.
 
-4.	После этого перейти в файл server->index.js и ввести свои данные в строки 28-36 и 38-44. Эти строки отвечают за информирование об ошибках с помощью электронной почты.
-4.1. При возникновении ошибки с emailer – возможно пригодится данная [информация](https://www.courier.com/error-solutions/535-authentication-failed-nodemailer/)
+4.	После этого перейти в файл server->index.js и ввести свои данные в строки 28-36 и 38-44. Эти строки отвечают за информирование об ошибках с помощью электронной почты. При возникновении ошибки с emailer – возможно пригодится данная [информация](https://www.courier.com/error-solutions/535-authentication-failed-nodemailer/)
+```js
+    let transporter = nodemailer.createTransport({
+        host: 'smtp.ethereal.email',
+        port: 587,
+        secure: false,
+        auth: {
+            user: "antonio80@ethereal.email",
+            pass: "PCS7FrnZKDDEpbK35Y",
+        },
+    })
+
+    let result = await transporter.sendMail({
+        from:'"Node js" <antonio80@ethereal.email>',
+        to: 'lempi.okuneva44@ethereal.email',
+        subject: 'Message from node',
+        text: 'This message was sent',
+        html:'this <i>message<i/> was sent from <strong>Node.js</strong> server'
+    })
+```
 5.	Создать 2 терминальных окна. Server и Client. (Ctrl+Shift+` по умолчанию)
 6.	В Server прописать: cd server -> npm run dev
 7.	В Client: cd client -> npm start

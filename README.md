@@ -15,7 +15,7 @@
 ## Запуск с помощью VS Code и pgAdmin
 
 ### Установка ПО
-1.	Скачать проект и базу данных для него с [google диска]((https://drive.google.com/drive/u/0/folders/1M1rPz1LwzC1u4PJAeoKyoBrIau6FNCOi)).
+1.	Скачать проект и базу данных для него с [google диска](https://drive.google.com/drive/u/0/folders/1M1rPz1LwzC1u4PJAeoKyoBrIau6FNCOi).
 2.	Установить обеспечение для работы с [node.js](https://nodejs.org/en/download).
 3.	Установить [pgAdmin](https://www.pgadmin.org/download/).
 
